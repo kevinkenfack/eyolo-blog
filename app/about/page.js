@@ -5,7 +5,7 @@ import LayoutThree from "@/components/home-3/Layout";
 import allAuthors from "@/data/author.json";
 import aboutData from "@/data/pages/about.json";
 import styles from "@/styles/modules/Style.module.scss";
-import { MDXRemote } from "next-mdx-remote/rsc";
+import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Link from "next/link";
 
