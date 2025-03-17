@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Home",
+    "submenu": [
+      {
+        "name": "Home 01",
+        "link": "/"
+      },
+      {
+        "name": "Home 02",
+        "link": "/home-2"
+      },
+      {
+        "name": "Home 03",
+        "link": "/home-3"
+      }
+    ]
+  },
+  {
+    "name": "About",
+    "link": "/about"
+  },
+  {
+    "name": "Blog Posts",
+    "link": "/blog"
+  },
+  {
+    "name": "Video Posts",
+    "link": "/videos"
+  },
+  {
+    "name": "Archive",
+    "link": "/archive"
+  },
+  {
+    "name": "Pages",
+    "submenu": [
+      {
+        "name": "Elements",
+        "link": "/blog/elements"
+      },
+      {
+        "name": "All Authors",
+        "link": "/author"
+      },
+      {
+        "name": "Author Single",
+        "link": "/author/alex-walton"
+      },
+      {
+        "name": "Category",
+        "link": "/category"
+      },
+      {
+        "name": "Category Single",
+        "link": "/category/lifestyle"
+      },
+      {
+        "name": "Privacy Policy",
+        "link": "/privacy"
+      },
+      {
+        "name": "Terms and Conditions",
+        "link": "/terms"
+      },
+      {
+        "name": "Sitemap",
+        "link": "/sitemap.xml"
+      }
+    ]
+  },
+  {
+    "name": "Contact",
+    "link": "/contact"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "slug": "about",
+  "frontmatter": {
+    "title": "All About Eyolo",
+    "description": "We always enjoy seeing the different ways people read our blog. Browse the articles to get fresh new insight into the world of business and get inspired.",
+    "banner": {
+      "title": {
+        "divider": true,
+        "first_half": "Creating Eyolo Has Been",
+        "second_half": "The Most Amazing Experience For Us Since 1998"
+      },
+      "image_01": "/images/about/about-1.jpg",
+      "image_02": "/images/about/about-2.jpg",
+      "description": "We always enjoy seeing the different ways people read our blog. Browse the articles to get fresh new insight into the world of business and get inspired.\n"
+    },
+    "authors": {
+      "enable": true,
+      "title": "Meet our authors",
+      "button": {
+        "label": "All Author",
+        "link": "/author"
+      },
+      "join_team": {
+        "enable": true,
+        "title": "It's You",
+        "subtitle": "Join our team",
+        "join_url": "/contact",
+        "image": "/images/author/its-you.webp"
+      }
+    },
+    "about_info": {
+      "title": "Why we're writing for Grafi Webflow Blog Template each day?",
+      "image": "/images/about/about.jpg"
+    }
+  },
+  "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.\n\nLorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in 1.10.32.R"
+}

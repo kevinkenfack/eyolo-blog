@@ -1,0 +1,132 @@
+---
+published: true
+title: "Elements"
+description: "In a shocking revelation, 23andMe claims that users are responsible for the recent data breach that exposed sensitive genetic information."
+image: "/images/blog/post-02.jpg"
+date: "2024-01-25"
+category: security
+author: "Alex Walton"
+featured: false
+trending: true
+---
+
+# Elements
+
+This page demonstrate some basic elements and typography which you will use frequently within your site. Make the text **bold** or make it *italic*. Why not **_bold and italic_** both at a time. Here is the link to [Next.js](https://nextjs.org/) website. Do you want to link a long text [here how it looks in this theme](https://nextjs.org/).
+
+## Heading two
+### Heading three
+#### Heading four
+##### Heading five
+###### Heading six
+
+### Paragraph
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+<hr/>
+
+### Ordered List
+
+1. The leap into electronic typesetting
+2. It was popularised in the 1960s
+3. Recently with desktop publishing software
+4. An unknown printer took a galley
+5. It has survived not only five centuries
+
+<hr/>
+
+### Unordered List
+
+* The leap into electronic typesetting
+* It was popularised in the 1960s
+* Recently with desktop publishing software
+* An unknown printer took a galley
+* It has survived not only five centuries
+
+<hr/>
+
+### Code and Syntax Highlighting
+
+Inline `code` has `back-ticks` around it.
+
+#### Script
+```javascript
+const [isCopied, setIsCopied] = useState(false);
+const copyToClipboard = () => {
+  navigator.clipboard.writeText(postURL);
+  setIsCopied(true);
+};
+
+useEffect(() => {
+  if (isCopied) {
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 3000);
+  }
+}, [isCopied]);
+```
+
+#### SCSS
+```scss
+// Form autofill reset
+.autofill-black:-webkit-autofill,
+.autofill-black:-webkit-autofill:hover, 
+.autofill-black:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+}
+.autofill-light:-webkit-autofill,
+.autofill-light:-webkit-autofill:hover, 
+.autofill-light:-webkit-autofill:focus {
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px #E7E5D4 inset;
+}
+```
+
+### Blockquote
+
+> Discovering the Joy of Reading Physical Books: Nostalgic Journey into the World of Literature to the society welfare.
+<cite>Viktoriia Iryna</cite>
+
+<hr/>
+
+### Image and Gallery
+
+#### Figure
+
+<CustomImage
+  src="/images/blog/post-11.jpg" 
+  alt="image" 
+  height="485" 
+  width="1000"
+  caption="This is a Image Caption"
+/>
+
+<hr/>
+
+#### Gallery
+<div className="gallery">
+  <CustomImage src="/images/blog/post-13.jpg" alt="image" height="300" width="300" />
+  <CustomImage src="/images/blog/post-12.jpg" alt="image" height="300" width="300" />
+  <CustomImage src="/images/blog/post-03.jpg" alt="image" height="300" width="300" />
+  <CustomImage src="/images/blog/post-04.jpg" alt="image" height="300" width="300" />
+  <CustomImage src="/images/blog/post-05.jpg" alt="image" height="300" width="300" />
+  <CustomImage src="/images/blog/post-06.jpg" alt="image" height="300" width="300" />
+</div>
+
+<hr/>
+
+### Videos
+
+#### Youtube video
+
+<CustomVideo title="" type="youtube" video_id="CHSnz0bCaUk" />
+
+<hr/>
+
+#### Vimeo video
+
+<CustomVideo title="" type="vimeo" video_id="341490793" />

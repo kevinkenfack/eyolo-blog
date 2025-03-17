@@ -1,0 +1,23 @@
+{
+  "slug": "contact",
+  "frontmatter": {
+    "title": "Contact Us",
+    "description": "Drop email to explore for collaborations or career opportunities.",
+    "contact_info": {
+      "title": {
+        "divider": true,
+        "first_half": "Let’s work",
+        "second_half": "Together"
+      },
+      "description": "Drop email to explore for collaborations or career opportunities."
+    },
+    "contactForm": {
+      "title": "It's all starts with hello..",
+      "email": "platoltheme@gmail.com",
+      "mailSubject": "Message form Eyolo Next.js!",
+      "successMessage": "Thank you for your message! Please be patient. I will get back to you shortly.",
+      "errorMessage": "Something went wrong. Please try again."
+    }
+  },
+  "content": ""
+}

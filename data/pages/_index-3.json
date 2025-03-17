@@ -1,0 +1,53 @@
+{
+  "slug": "_index-3",
+  "frontmatter": {
+    "headerCategories": {
+      "enable": true
+    },
+    "banner": {
+      "enable": true,
+      "heading": "Engaging Dialogues with the Exceptional"
+    },
+    "popularArticles": {
+      "enable": true,
+      "title": "Popular Articles"
+    },
+    "sidebar": {
+      "adBanner": {
+        "enable": true,
+        "title": "Dive Deep Into Thought and Know More Things",
+        "image": "/images/ad-banner.jpg",
+        "button": {
+          "label": "Learn More",
+          "link": "#!"
+        }
+      },
+      "instagram": {
+        "enable": true,
+        "title": "Instagram Posts"
+      },
+      "subscriptionForm": {
+        "enable": true,
+        "title": "Newsletter",
+        "buttonLabel": "Subscribe"
+      }
+    },
+    "exploreTopics": {
+      "enable": true,
+      "title": "Explore Topics",
+      "button": {
+        "label": "All Categories",
+        "link": "/category"
+      }
+    },
+    "latestArticles": {
+      "enable": true,
+      "title": "Latest Articles",
+      "button": {
+        "label": "All Posts",
+        "link": "/blog"
+      }
+    }
+  },
+  "content": ""
+}

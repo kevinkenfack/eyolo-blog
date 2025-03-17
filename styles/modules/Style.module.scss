@@ -1,0 +1,36 @@
+.postBg {
+  background: linear-gradient(180deg, #415649 0%, rgba(65, 86, 73, 0.95) 21.14%, rgba(65, 86, 73, 0.91) 44.02%, rgba(65, 86, 73, 0.9) 100%), url('/images/home-2/home-2-banner.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.darkBg, .darkBgTwo {
+  background-image: url('/images/dark-bg.webp');
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.darkBgTwo {
+  background-image: url('/images/dark-bg-2.webp');
+}
+.waveBg {
+  background: url('/images/wave-bg.webp');
+  background-size: 100%;
+  background-position: top center;
+  background-color: #415649;
+}
+.dotBg {
+  background: radial-gradient(circle at 1px 1px, rgba(#415649, .25) 1px, transparent 0);
+  background-size: 20px 20px;
+  background-position: center;
+}
+.newsletterBlock {
+  @apply px-4 py-7 sm:p-10 sm:pb-8 relative z-10;
+  &::before {
+    @apply rounded-xl rounded-bl-none absolute content-[''] w-full h-[calc(100%_-_70px)] bg-border rounded-t-xl top-0 left-0 -z-10;
+  }
+  &::after {
+    @apply absolute content-[''] w-[calc(100%_-_70px)] h-[100px] bg-border rounded-b-xl left-0 bottom-0 -z-10;
+  }
+}
