@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "fetch": "node libs/fetch.mjs",
-    "postinstall": "npx npm-force-resolutions"
+    "postinstall": "npx npm-force-resolutions",
+    "check": "npm list react react-dom"
+
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
@@ -42,8 +44,9 @@
     "tailwindcss": "3.4.16",
     "typescript": "5.7.2"
   },
-  "resolutions": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+  "overrides": {
+  "react": "18.2.0",
+  "react-dom": "18.2.0"
   }
+
 }
