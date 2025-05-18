@@ -1,0 +1,44 @@
+{
+  "name": "eyolo_nextjs",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node libs/fetch.mjs && next dev",
+    "build": "node libs/fetch.mjs && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fetch": "node libs/fetch.mjs"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@tabler/icons-react": "^3.26.0",
+    "@types/react": "19",
+    "@vidstack/react": "^1.11.24",
+    "eslint": "^9.17.0",
+    "lightense-images": "^1.0.17",
+    "next": "15.1.0",
+    "next-mdx-remote": "^5.0.0",
+    "nextjs-toploader": "^3.7.15",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "reading-time": "^1.5.0",
+    "rehype": "^13.0.2",
+    "rehype-raw": "^7.0.0",
+    "remark": "^15.0.1",
+    "remark-heading-id": "^1.0.1",
+    "remark-html": "^16.0.1",
+    "rss": "^1.2.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "10.4.20",
+    "eslint-config-next": "15.1.0",
+    "postcss": "8.4.49",
+    "sass": "^1.83.0",
+    "tailwind-bootstrap-grid": "^5.1.0",
+    "tailwindcss": "3.4.16",
+    "typescript": "5.7.2"
+  }
+}

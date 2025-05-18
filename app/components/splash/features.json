@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Markdwon + MDX Support",
+    "image": "/images/splash/icons/mdx.svg",
+    "hot": true
+  },
+  {
+    "title": "Table of contents",
+    "image": "/images/splash/icons/toc.svg"
+  },
+  {
+    "title": "Working AJAX contact form",
+    "image": "/images/splash/icons/feature-icon-2.svg",
+    "hot": true
+  },
+  {
+    "title": "Fully Mobile responsive",
+    "image": "/images/splash/icons/feature-icon-1.svg"
+  },
+  {
+    "title": "Newsletter (Formspree)",
+    "image": "/images/splash/icons/feature-icon-5.svg"
+  },
+  {
+    "title": "code-highlighting",
+    "image": "/images/splash/icons/feature-icon-12.svg"
+  },
+  {
+    "title": "Youtube & Vimeo video",
+    "image": "/images/splash/icons/feature-icon-10.svg"
+  },
+  {
+    "title": "image-popup with caption",
+    "image": "/images/splash/icons/feature-icon-13.svg",
+    "hot": true
+  },
+  {
+    "title": "Image gallery",
+    "image": "/images/splash/icons/feature-icon-14.svg",
+    "hot": true
+  },
+  {
+    "title": "Text quotations",
+    "image": "/images/splash/icons/feature-icon-15.svg"
+  },
+  {
+    "title": "Social Share",
+    "image": "/images/splash/icons/feature-icon-17.svg"
+  },
+  {
+    "title": "Copy link to clipboard",
+    "image": "/images/splash/icons/feature-icon-18.svg"
+  },
+  {
+    "title": "Helpful documentation",
+    "image": "/images/splash/icons/feature-icon-7.svg",
+    "hot": true
+  },
+  {
+    "title": "Premium support",
+    "image": "/images/splash/icons/feature-icon-11.svg",
+    "hot": true
+  },
+  {
+    "title": "Free Lifetime Updates",
+    "image": "/images/splash/icons/feature-icon-9.svg",
+    "hot": true
+  }
+]

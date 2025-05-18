@@ -1,0 +1,98 @@
+.menu {
+  @apply scale-y-0 transition-all duration-[400ms] select-none;
+
+  ul {
+    @apply my-10 w-fit mx-auto font-primary text-3xl;
+    & > li {
+      @apply opacity-0 scale-95;
+      
+      span a, label {
+        @apply block py-3;
+      }
+
+      span, label {
+        @apply transition-all duration-300;
+      }
+
+      label input {
+        & + span {
+          @apply flex items-center justify-center gap-x-2 cursor-pointer;
+          
+          svg {
+            @apply transition-transform duration-200;
+          }
+
+          & + div {
+            @apply max-h-0 overflow-hidden transition-all flex flex-col;
+
+            a {
+              @apply block text-xl transition-all duration-300 py-[6px];
+            }
+
+            &:hover a:not(:hover) {
+              @apply opacity-35;
+            }
+          }
+        }
+      }
+    }
+    &:hover {
+      li label:not(:hover),
+      li span:not(:hover) {
+        @apply opacity-35;
+      }
+
+      li label:not(:hover) span {
+        @apply opacity-100;
+      }
+    }
+  }
+
+  input:checked + .submenuname > svg {
+    @apply rotate-180;
+  }
+  input:checked ~ .submenu {
+    @apply max-h-[--maxHeight];
+  }
+}
+.isOpen {
+  @apply scale-y-100 shadow-2xl;
+
+  ul > li {
+    transition: .3s ease-out;
+    @apply opacity-100 translate-y-0 scale-100;
+    @for $i from 1 through 9 {
+      &:nth-child(#{$i}) {
+        transition-delay: 10 + $i * 50ms;
+      }
+    }
+
+    & > span, & > label {
+      text-decoration-color: transparent;
+    }
+
+    & > span.active,
+    & > label.active > span, 
+    & > label a.active,
+    & > span:hover,
+    & > label:hover > span, 
+    & > label a:hover {
+      text-decoration-color: inherit;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+    & > label a.active,
+    & > label a:hover {
+      text-decoration-thickness: 1px;
+    }
+    span.active a,
+    a.active {
+      cursor: text !important;
+    }
+
+    label:hover span {
+      opacity: 1 !important;
+    }
+  }
+}

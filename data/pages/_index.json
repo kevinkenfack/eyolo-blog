@@ -1,0 +1,48 @@
+{
+  "slug": "_index",
+  "frontmatter": {
+    "popularTopics": {
+      "enable": true,
+      "title": "Popular Topics"
+    },
+    "latestArticles": {
+      "enable": true,
+      "heading": "Discover. Learn. Transform. Quick",
+      "title": "Latest Articles",
+      "description": "Latest Articles of Amet venenatis urna cursus eget nunc scelerisque viverra.",
+      "button": {
+        "label": "All Posts",
+        "link": "/blog"
+      }
+    },
+    "popularArticles": {
+      "enable": true,
+      "heading": "Business insights and workplace culture",
+      "title": "Popular Articles",
+      "description": "Popular Articles of consectetur morbi. Amet venenatis urna cursus eget nunc scelerisque viverra.",
+      "button": {
+        "label": "All Posts",
+        "link": "/blog?filter=popular"
+      }
+    },
+    "trendingArticles": {
+      "enable": true,
+      "heading": "Where Knowledge Meets Passion",
+      "title": "Trending Articles",
+      "description": "Trending Articles of consectetur morbi. Amet venenatis urna cursus eget nunc scelerisque viverra.",
+      "button": {
+        "label": "All Posts",
+        "link": "/blog?filter=trending"
+      }
+    },
+    "postOfTheWeekSection": {
+      "enable": true,
+      "title": "Post of the Week",
+      "button": {
+        "label": "All Weekly Posts",
+        "link": "/blog?filter=featured"
+      }
+    }
+  },
+  "content": ""
+}

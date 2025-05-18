@@ -1,0 +1,9 @@
+{
+  "slug": "privacy",
+  "frontmatter": {
+    "title": "Privacy policy",
+    "subtitle": "Need to read",
+    "description": "We do not collect personal information from our users"
+  },
+  "content": "## Information we collect\n\nWe do not collect personal information from our users, including names, email addresses, company names, services requested, budget information, and project descriptions. We collect this information through a form on our website.\n\n\n## How we use your information\n\nWe use the information we collect to respond to enquiries and to help improve our website. We do not share this information with third parties.\n\n\n## How we protect your information\n\nWe take reasonable steps to protect the personal information we collect from our users. Our website's form is powered by Next.js, and we use email to help protect the information that we collect.\n\n\n## Accessing, modifying, and deleting your information\n\nUsers may request to access, modify, or delete their personal information by contacting us at\n\n\n## Data breaches\n\nIn the event of a data breach, we will take immediate steps to contain the breach, investigate the cause, and notify affected users as required by law.\n\n\n## Sensitive personal information\n\nWe do not collect any sensitive personal information, such as medical or financial information.\n\n\n## Changes to this policy\n\nWe reserve the right to modify this privacy policy at any time. Any changes will be reflected on this page.\n\n\n## Contact us\n\nIf you have any questions about this privacy policy or our practices, please contact us at"
+}

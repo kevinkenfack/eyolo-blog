@@ -1,0 +1,49 @@
+body {
+  @apply bg-light text-dark;
+  color-scheme: dark;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-black font-primary;
+}
+
+::-moz-selection {
+  @apply text-white bg-primary;
+}
+
+::selection {
+  @apply text-white bg-primary;
+}
+
+@media screen and (min-width: 767px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #415649;
+    border-radius: 16px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2e3f35;
+  }
+
+  .no-scroll {
+    @apply overflow-hidden pr-[7px]
+  }
+}
+
+.scrollbar-vertical {
+  &::-webkit-scrollbar {
+    width: auto;
+    height: 5px;
+  }
+}
+
+.container {
+  @media screen and (min-width: 1536px) {
+    max-width: 1280px !important;
+  }
+}

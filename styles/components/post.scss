@@ -1,0 +1,62 @@
+.post-card {
+  .post-category {
+    @apply absolute right-0 leading-none text-sm inline-block;
+    a {
+      @apply rounded-lg border-2 py-2 px-4 uppercase inline-block;
+    }
+    .corner svg {
+      @apply absolute h-3 md:h-4 w-3 md:w-4;
+    }
+  }
+  &.post-category-top {
+    .post-category {
+      @apply pl-2 pb-2 top-0 rounded-bl-lg rounded-tr-lg;
+      .corner svg {
+        @apply rotate-90;
+      }
+      .corner.left svg {
+        @apply top-0 -left-3 md:-left-4;
+      }
+      .corner.bottom svg {
+        @apply -bottom-3 md:-bottom-4 right-0;
+      }
+    }
+  }
+  &.post-category-bottom {
+    .post-category {
+      @apply pl-2 pt-2 top-auto bottom-0 rounded-tl-lg rounded-br-lg;
+      .corner svg {
+        @apply rotate-180;
+      }
+      .corner.left svg {
+        @apply -top-3 md:-top-4 right-0;
+      }
+      .corner.bottom svg {
+        @apply bottom-0 -left-3 md:-left-4;
+      }
+    }
+  }
+}
+.has-line-link,
+.has-line-link-white {
+  .line-link-el {
+    text-decoration: none;
+    background-image: linear-gradient(#060C14, #060C14);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .35s;
+  }
+  .line-link-el-active,
+  &:hover .line-link-el {
+    background-size: 100% 1px;
+    background-position: 0% 100%;
+  }
+  &:hover .line-link-el-active.hoverable {
+    background-size: 0% 1px;
+    background-position: 100% 100%;
+  }
+}
+.has-line-link-white .line-link-el {
+  background-image: linear-gradient(#ffffff, #ffffff);
+}

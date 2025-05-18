@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "alex-walton",
+    "frontmatter": {
+      "title": "Alex Walton",
+      "subtitle": "Graphic Designer & Blogger",
+      "image": "/images/author/alex-walton.jpg"
+    },
+    "content": "Alex Walton brings a unique blend of technical expertise and creative flair to his writing. He thrives on delving into the world of science, technology, and gaming, always striving to share knowledge in an engaging way. In his spare time, Alex enjoys tinkering with electronics and exploring the latest virtual realities."
+  },
+  {
+    "slug": "kathryn-jackson",
+    "frontmatter": {
+      "title": "Kathryn Jackson",
+      "subtitle": "Techlogist & Writer",
+      "image": "/images/author/kathryn-jackson.jpg"
+    },
+    "content": "Kathryn Jackson is a passionate writer with a knack for weaving captivating stories. Her interests span across travel, history, and the culinary arts. When not crafting compelling content, you can find her exploring hidden gems or whipping up delicious meals in her kitchen."
+  },
+  {
+    "slug": "nilima-nike",
+    "frontmatter": {
+      "title": "Nilima Nike",
+      "subtitle": "Writer and Storyteller",
+      "image": "/images/author/nilima-nike.jpg"
+    },
+    "content": "Nilima Nike is a writer with a keen eye for design and a love for storytelling. Her focus lies in fashion, art, and personal development, offering insightful perspectives and inspiring journeys through her words. When not tapping away at her keyboard, Nilima can be found sketching out new ideas or exploring art galleries and museums."
+  }
+]
