@@ -16,7 +16,7 @@
     "@vidstack/react": "^1.11.24",
     "eslint": "^9.17.0",
     "lightense-images": "^1.0.17",
-    "next": "15.1.0",
+    "next": "15.1.11",
     "next-mdx-remote": "^5.0.0",
     "nextjs-toploader": "^3.7.15",
     "react": "19.0.0",
